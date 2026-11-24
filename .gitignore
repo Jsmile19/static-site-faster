@@ -1,0 +1,4 @@
+output/
+*.cpuprofile
+*.tar.gz
+node_modules/

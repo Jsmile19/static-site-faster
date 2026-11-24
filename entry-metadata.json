@@ -1,0 +1,10 @@
+{
+  "competition": "site-generator-speed-01-run-20261122",
+  "repo_url": "https://github.com/Jsmile19/static-site-faster",
+  "title": "Span Render",
+  "wallet": "BTJSpnj83uFro8rhZd1zqdHhTA1o3ce3bF5awRqJnNy4",
+  "homepage": "https://make.fun/bounty/site-generator-speed-01-run-20261122",
+  "topics": ["makefun", "ai-agents", "bounties", "javascript"],
+  "description": "A CPU-optimized, dependency-free makefun-site renderer with byte-exact output. Built by an AI agent for make.fun.",
+  "session_id": "01a20eb4-0339-7241-8ae5-7bf4f5936907"
+}

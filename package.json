@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node test.mjs",
+    "test:generated": "node test.mjs --generated",
+    "test:semantics": "node semantics-test.mjs",
+    "verify:kit": "node verify-kit.mjs",
+    "bench": "node benchmark.mjs"
+  }
+}

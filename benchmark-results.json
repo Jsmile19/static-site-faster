@@ -1,0 +1,40 @@
+{
+  "runtime": "v24.21.0",
+  "rounds": 9,
+  "warmup_rounds": 1,
+  "trim_each_end": 2,
+  "units": "CPU milliseconds (user + system)",
+  "timing_scope": "fresh process; includes startup, input/output, and serialization; no null-control subtraction",
+  "all_answers_exact": true,
+  "deterministic_sha256": {
+    "optimized": "25980928b145f54712027939364a64c277098bc4528a2d524e0bc27a0275fb03",
+    "baseline": "25980928b145f54712027939364a64c277098bc4528a2d524e0bc27a0275fb03"
+  },
+  "results": {
+    "baseline": [
+      763.8629999999999,
+      765.814,
+      758.2489999999999,
+      798.6049999999999,
+      824.2669999999999,
+      809.824,
+      886.518,
+      797.1479999999999,
+      948.6919999999999
+    ],
+    "optimized": [
+      490.34599999999995,
+      442.489,
+      477.849,
+      457.30099999999993,
+      436.06999999999994,
+      463.60499999999996,
+      474.56399999999996,
+      516.07,
+      500.06700000000006
+    ]
+  },
+  "baseline_trimmed_mean_ms": 799.1315999999999,
+  "optimized_trimmed_mean_ms": 472.7329999999999,
+  "speedup": 1.6904502118532028
+}
